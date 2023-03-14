@@ -12,7 +12,7 @@ bin/magento setup:di:compile:
 Result
 the new command Send:Aramex that accepts a --OrderId parameter is ready to use.
 
-bin/magento Send:Aramex --OrderId='000010'
+bin/magento Send:Aramex --OrderId='000001'
 
 ![Screenshot from 2023-03-14 22-31-25](https://user-images.githubusercontent.com/99461347/225103555-fa016ca7-a422-48d0-9d5b-27f166c7075a.png)
 
