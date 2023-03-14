@@ -4,7 +4,7 @@ $array = [];
 $array[] = 'Apple';
 $array[] = 'Banana';
 $array[] = 'Grapes';
- // echo json_encode($array);
+// echo json_encode($array);
 
 if (isset($_GET['key']))
 {
