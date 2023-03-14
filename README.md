@@ -2,10 +2,12 @@
 
 1. Create a Command class (the location is <your component root dir>/Console/Command).
 2. Declare Command class in Magento\Framework\Console\CommandListInterface and configure the command name using dependency injection (<component root dir>/etc/di.xml):
+
 3. Clean the cache
-bin/magento cache:clean
+bin/magento cache:clean:
+
 4.Regenrate the code 
-bin/magento setup:di:compile
+bin/magento setup:di:compile:
 
 Result
 the new command Send:Aramex that accepts a --OrderId parameter is ready to use.
