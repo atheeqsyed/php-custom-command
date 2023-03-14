@@ -1,6 +1,7 @@
 # Adding a CLI command using dependency injection
 
 1. Create a Command class (the location is <your component root dir>/Console/Command).
+
 2. Declare Command class in Magento\Framework\Console\CommandListInterface and configure the command name using dependency injection (<component root dir>/etc/di.xml):
 
 3. Clean the cache
