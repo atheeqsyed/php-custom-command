@@ -10,7 +10,7 @@ bin/magento cache:clean:
 4.Regenrate the code 
 bin/magento setup:di:compile:
 
-Result
+Result:
 the new command Send:Aramex that accepts a --OrderId parameter is ready to use.
 
 bin/magento Send:Aramex --OrderId='000001'
