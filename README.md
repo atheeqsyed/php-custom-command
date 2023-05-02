@@ -5,7 +5,7 @@
 2. Declare Command class in Magento\Framework\Console\CommandListInterface and configure the command name using dependency injection (<component root dir>/etc/di.xml):
 
 3. Clean the cache
-bin/magento cache:clean:
+bin/magento cache:clean
 
 4.Regenrate the code 
 bin/magento setup:di:compile:
