@@ -1,4 +1,4 @@
-# Adding a CLI command using dependency injection
+# Adding a CLI cmd using dependency injection (DI)
 
 1. Create a Command class (the location is <your component root dir>/Console/Command).
 
